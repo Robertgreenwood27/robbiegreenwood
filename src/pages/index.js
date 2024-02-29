@@ -17,7 +17,7 @@ export default function Home() {
        <Card 
           title="Dolox" 
           description="This is a fun chatbot made with the gpt api." 
-          imageUrl="/Dolox.png"
+          imageUrl="/dolox.png"
           imageAlt="screen cap of dolox website"
           pageUrl="https://www.dolox.wtf/"
           githubUrl="https://github.com/Robertgreenwood27/myaisite"
