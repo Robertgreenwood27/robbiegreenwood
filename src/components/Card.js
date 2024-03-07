@@ -1,22 +1,22 @@
 // components/Card.js
 function Card({ title, description, imageUrl, pageUrl, githubUrl, imageAlt }) {
   return (
-    <div className="max-w-sm rounded-lg overflow-hidden shadow-xl border-2 border-[#006638]  m-4 p-6 hover:bg-opacity-90 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-      <img className="w-full rounded-lg mb-4" src={imageUrl} alt={imageAlt || 'Card Image'} />
-      <div>
-        <div className="font-bold text-xl mb-2 text-white">{title}</div>
-        <p className="text-white text-base mb-4">
-          {description}
-        </p>
+    <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1">
+      <div className="relative">
+        <img src={imageUrl} alt={imageAlt || 'Card Image'} className="w-full h-auto" />
+        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+          <div className="flex space-x-4">
+            <a href={pageUrl} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-[#006638] text-white rounded-md transition duration-300 ease-in-out hover:bg-[#004d2a]">Visit Page</a>
+            <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-[#006638] text-white rounded-md transition duration-300 ease-in-out hover:bg-[#004d2a]">GitHub</a>
+          </div>
+        </div>
       </div>
-      <div className="flex justify-between">
-        <a href={pageUrl} target="_blank" rel="noopener noreferrer" className="inline-block bg-[#006638] rounded-full px-4 py-2 text-sm font-semibold text-white hover:bg-green-700 transition duration-300 ease-in-out">Visit Page</a>
-        <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-900 rounded-full px-4 py-2 text-sm font-semibold text-white hover:bg-gray-700 transition duration-300 ease-in-out">GitHub</a>
+      <div className="px-6 py-4 text-white">
+        <h3 className="text-xl font-bold mb-2">{title}</h3>
+        <p className="text-zinc-100 text-base">{description}</p>
       </div>
     </div>
   );
 }
 
 export default Card;
-
-  

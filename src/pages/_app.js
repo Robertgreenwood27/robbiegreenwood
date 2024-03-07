@@ -3,6 +3,7 @@ import '@/styles/globals.css';
 import Header from '@/components/Header';
 import BackgroundCanvas from '@/components/BackgroundCanvas';
 import { LoadingProvider, useLoading } from '../components/LoadingContext'
+import Footer from '@/components/Footer'
 
 
 const AppContent = ({ Component, pageProps }) => {
@@ -12,7 +13,8 @@ const AppContent = ({ Component, pageProps }) => {
     <>
       <Header />
       <BackgroundCanvas isLoading={isLoading} />
-      <Component {...pageProps} />
+      <Component {...pageProps}/>
+      <Footer/>
     </>
   );
 };
