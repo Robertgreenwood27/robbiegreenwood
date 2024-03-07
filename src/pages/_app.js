@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import BackgroundCanvas from '@/components/BackgroundCanvas';
 import { LoadingProvider, useLoading } from '../components/LoadingContext'
 import Footer from '@/components/Footer'
+import { Analytics } from "@vercel/analytics/react"
 
 
 const AppContent = ({ Component, pageProps }) => {
@@ -11,6 +12,7 @@ const AppContent = ({ Component, pageProps }) => {
 
   return (
     <>
+    <Analytics/>
       <Header />
       <BackgroundCanvas isLoading={isLoading} />
       <Component {...pageProps}/>
