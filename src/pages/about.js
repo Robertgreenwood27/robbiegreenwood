@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="min-h-screen text-white py-16">
+    <div className="min-h-screen bg-zinc-900 text-white py-16">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl mb-8">
@@ -57,7 +57,7 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-4">Robbie Greenwood</h2>
               <p className="text-xl text-zinc-300">Web Developer</p>
               <p className="text-zinc-300 mt-4">
-                Feel free to explore my portfolio to see some of my recent projects. If you have any exciting collaborations or opportunities in mind, don&apos;t hesitate to reach out. Let&apos;s connect and create something amazing together!
+                Feel free to explore my portfolio to see some of my recent projects. If you have any exciting collaborations or opportunities in mind, don't hesitate to reach out. Let's connect and create something amazing together!
               </p>
             </div>
           </div>

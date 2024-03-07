@@ -134,6 +134,19 @@ export default function Home() {
             />
           </div>
         </section>
+        <section className="mt-16 text-center" data-aos="fade-up">
+          <h2 className="text-4xl font-bold mb-8">Education</h2>
+          <div className="flex justify-center">
+            <img
+              src="/cert.png"
+              alt="Thinkful Front-end Web Development Bootcamp Certificate"
+              className="w-full md:w-1/2 lg:w-1/3 rounded-lg shadow-lg"
+            />
+          </div>
+          <p className="mt-4 text-xl">
+            Graduated from Thinkful Front-end Web Development Bootcamp
+          </p>
+        </section>
       </main>
     </div>
   );
