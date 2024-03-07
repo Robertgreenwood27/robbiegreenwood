@@ -57,7 +57,7 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-4">Robbie Greenwood</h2>
               <p className="text-xl text-zinc-300">Web Developer</p>
               <p className="text-zinc-300 mt-4">
-                Feel free to explore my portfolio to see some of my recent projects. If you have any exciting collaborations or opportunities in mind, don't hesitate to reach out. Let's connect and create something amazing together!
+                Feel free to explore my portfolio to see some of my recent projects. If you have any exciting collaborations or opportunities in mind, don&apos;t hesitate to reach out. Let&apos;s connect and create something amazing together!
               </p>
             </div>
           </div>
