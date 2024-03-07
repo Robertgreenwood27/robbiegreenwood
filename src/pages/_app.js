@@ -21,7 +21,7 @@ const AppContent = ({ Component, pageProps }) => {
   {/* Open Graph meta tags */}
   <meta property="og:title" content="Robbie Greenwood - Web Developer Portfolio" />
   <meta property="og:description" content="Robbie Greenwood's web developer portfolio showcasing skills and projects." />
-  <meta property="og:image" content="/robbie.png" />
+  <meta property="og:image" content="https://www.robbiegreenwood.dev/Robbie.png" />
   <meta property="og:url" content="https://robbiegreenwood.dev" />
   <meta property="og:type" content="website" />
 </Head>
